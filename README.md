@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/azenko/node-dhcp.svg?branch=master)](https://travis-ci.org/azenko/node-dhcp)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-node-dhcp is a RFC compliant DHCP client and server implementation on top of node.js.
+node-dhcp is a RFC compliant DHCP client and server implementation on top of node.js forked from infusion/node-dhcp.
 
 Motivation
 ===
