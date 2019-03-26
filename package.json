@@ -1,7 +1,7 @@
 {
   "name": "azf-dhcp",
   "title": "azf-dhcp",
-  "version": "0.2.18.3",
+  "version": "0.2.19",
   "homepage": "https://github.com/azenko/node-dhcp",
   "bugs": {
     "url": "https://github.com/azenko/node-dhcp/issues"
