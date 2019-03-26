@@ -1,8 +1,8 @@
 
-![node-dhcp](https://github.com/infusion/node-dhcp/blob/master/res/logo.png?raw=true "JavaScript DHCP Server")
+![node-dhcp](https://github.com/azenko/node-dhcp/blob/master/res/logo.png?raw=true "JavaScript DHCP Server")
 
-[![NPM Package](https://img.shields.io/npm/v/dhcp.svg?style=flat)](https://npmjs.org/package/dhcp "View this project on npm")
-[![Build Status](https://travis-ci.org/infusion/node-dhcp.svg?branch=master)](https://travis-ci.org/infusion/node-dhcp)
+[![NPM Package](https://img.shields.io/npm/v/azf-dhcp.svg?style=flat)](https://npmjs.org/package/azf-dhcp "View this project on npm")
+[![Build Status](https://travis-ci.org/azenko/node-dhcp.svg?branch=master)](https://travis-ci.org/azenko/node-dhcp)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 node-dhcp is a RFC compliant DHCP client and server implementation on top of node.js.
@@ -63,7 +63,7 @@ var s = dhcpd.createServer({
   forceOptions: ['hostname'], // Options that need to be sent, even if they were not requested
   randomIP: true, // Get random new IP from pool instead of keeping one ip
   static: {
-    "11:22:33:44:55:66": "192.168.3.100"
+    "11-22-33-44-55-66": "192.168.3.100"
   },
 
   // Option settings (there are MUCH more)

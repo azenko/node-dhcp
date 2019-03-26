@@ -1,12 +1,12 @@
 {
-  "name": "dhcp",
-  "title": "dhcp",
-  "version": "0.2.18",
-  "homepage": "https://github.com/infusion/node-dhcp",
+  "name": "azf-dhcp",
+  "title": "azf-dhcp",
+  "version": "0.2.18.1",
+  "homepage": "https://github.com/azenko/node-dhcp",
   "bugs": {
-    "url": "https://github.com/infusion/node-dhcp/issues"
+    "url": "https://github.com/azenko/node-dhcp/issues"
   },
-  "description": "A DHCP server written in JavaScript",
+  "description": "A DHCP server written in JavaScript forked from infusion/node-dhcp",
   "keywords": [
     "dhcp",
     "network",
@@ -20,6 +20,9 @@
     "udp"
   ],
   "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
+  "contributors": [
+    "Asuka Zenko <asukazenko@protonmail.ch> (http://www.azenko.sh/)"
+  ],
   "main": "lib/dhcp.js",
   "private": false,
   "readmeFilename": "README.md",
@@ -32,7 +35,7 @@
   "license": "MIT OR GPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/infusion/node-dhcp.git"
+    "url": "git://github.com/azenko/node-dhcp.git"
   },
   "bin": {
     "dhcp": "./bin/dhcp-cli.js",
